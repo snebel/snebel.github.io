@@ -53,19 +53,19 @@ li {
 }
 
 i {
-  /*display: inline-block;*/
-  /*background-position: left center;*/
-  /*background-repeat: no-repeat;*/
-  /*padding-left: 16px;  Or size of icon + spacing */
   margin-top: 15px;
   margin-right: 15px;
 
 }
 
 
+.bounceInRight {
+  -webkit-animation-delay: 0.3s;
+}
 
-
-
+.bounceInLeft {
+  -webkit-animation-delay: 0.3s;
+}
 
 
 
