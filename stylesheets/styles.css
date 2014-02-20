@@ -16,7 +16,7 @@ img {
 }
 
 h1 {
-  font-size: 56px;
+  font-size: 58px;
 }
 
 h2 {
@@ -36,8 +36,13 @@ h4 {
   margin-bottom: 20px;
 }
 
+.lead {
+  line-height: 1.6;
+  font-weight: 30;
+}
+
 .portfolio {
-  margin-top: 25px;
+  margin-top: 10px;
 }
 .info {
   margin-left: 0px;
@@ -52,14 +57,12 @@ i {
   /*background-position: left center;*/
   /*background-repeat: no-repeat;*/
   /*padding-left: 16px;  Or size of icon + spacing */
-  margin-top: 5px;
+  margin-top: 15px;
+  margin-right: 15px;
 
 }
 
-.txt {
-  background-color;
-  margin-top: 0px;
-}
+
 
 
 
