@@ -7,12 +7,17 @@ body {
   padding-bottom: 100px;
 }
 
-img {
+#test-img {
   border-radius: 100px;
   height: 175px;
   margin-bottom: 15px;
   margin-top: -5px;
   /*float: left;*/
+}
+
+.screenshot {
+  width: 85%;
+  margin-bottom: 20px;
 }
 
 h1 {
@@ -21,15 +26,46 @@ h1 {
 
 h2 {
   margin-top: -15px;
-  margin-bottom: 0px;
+  margin-bottom: 20px;
 }
 
 h2 small{
   font-size: 62%;
 }
 
+.panel-title small {
+  font-weight: ;
+  border-bottom-color: #f3f3f3;
+  border-top-color: #f3f3f3;
+}
+
+.panel .panel-heading:hover {
+  background-color: #f3f3f3;
+}
+
+.panel-default {
+  border: 0; 
+}
+
+.panel-collapse {
+  background-color: #fcfcfc;
+  border: 0;
+}
+
 h4 {
   font-weight: 300;
+  font-size: 19px;
+}
+
+.panel-title {
+  font-size: 18px;
+  color: #d9230f;
+}
+
+a:hover,
+a:focus {
+  color: #91170a;
+  text-decoration: underline;
 }
 
 .email {

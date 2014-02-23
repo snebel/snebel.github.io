@@ -12,35 +12,116 @@
   <title>Sam Nebel</title>
 </head>
 <body>
-  <div class='container'>
-    <div>
-      <h1>Sam Nebel</h1>
-      <h2 class="animated bounceInLeft"><small>Software Developer</small></h2>
-      <p class='email animated bounceInRight'><a href='mailto:sam@samnebel.com' target='blank'>sam@samnebel.com</a></p>
-    </div>  
-    <div>
-      <img id="test-img" src="https://0.gravatar.com/avatar/c4895f241435e0123709375f2618aa3e?d=https%3A%2F%2Fidenticons.github.com%2Fd48501890e6218bcb8212074ec87ed79.png&r=x&s=440">
+<div class='container'>
+  <div>
+    <h1>Sam Nebel</h1>
+    <h2 class="animated bounceInLeft"><small>Software Developer</small></h2>
+    <p class='email animated bounceInRight'><a href='mailto:sam@samnebel.com' target='blank'>sam@samnebel.com</a></p>
+  </div>  
+  <div>
+    <img id="test-img" src="https://0.gravatar.com/avatar/c4895f241435e0123709375f2618aa3e?d=https%3A%2F%2Fidenticons.github.com%2Fd48501890e6218bcb8212074ec87ed79.png&r=x&s=440">
+  </div>
+  <div class="row">
+    <div class="col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1 col-xs-10 col-xs-offset-1">
+    <p class='lead text-center'>Raised in NYC, Sam graduated from Wesleyan University in 2013 with a double major in Mathematics and Psychology. His interests include Back-End Web Development, TDD, Ruby, and Functional Programming. In his free time, Sam enjoys playing basketball and traveling (but not at the same time). <!-- See Sam&rsquo;s <a>resume</a> --></p>
     </div>
-    <div class="row">
-      <div class="col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1 col-xs-10 col-xs-offset-1">
-      <p class='lead text-center'>Raised in NYC, Sam graduated from Wesleyan University in 2013 with a double major in Mathematics and Psychology. His interests include Back-End Web Development, TDD, Ruby, and Functional Programming. In his free time, Sam enjoys playing basketball and traveling (but not at the same time). <!-- See Sam&rsquo;s <a>resume</a> --></p>
+  </div>
+
+  <h2 class='portfolio'>Portfolio</h2>
+
+  <h4><a href='http://citibike-better.herokuapp.com' target='blank'>CitibikeBetter</a> <small>helps Citibikers find optimal biking directions.</small></h4>
+  <h4><a href='http://watch-atlas.herokuapp.com' target='blank'>Watch Atlas</a> <small>is a D3 visualization of global Youtube trends.</small></h4>
+  <h4><a href='http://mapshare.herokuapp.com' target='blank'>Mapshare</a> <small>allows users to design, store, and share custom maps.</small>
+  <h4><a href='http://samnebel.com' target='blank'>Math Tutoring</a> <small> Sam&rsquo;s personal tutoring site with testimonials</small></h4>
+  <h4><a href='http://github.com/snebel/project_euler' target='blank'>Project Euler</a> <small> Sam is in the top <a href='http://projecteuler.net/problems_analysis' target='blank'>5%</a> of all Project Euler solvers</small></h4>
+
+
+  <div class="panel-group col-md-10 col-md-offset-1 col-xs-10 col-xs-offset-1" id="accordion">
+
+    <div class="panel panel-default">
+      <div class="panel-heading" data-toggle="collapse" data-parent="#accordion" href="#collapseOne"></a>
+        <h4 class="panel-title">
+          <a href="http://citibike-better.herokuapp.com" target="bottom">CitibikeBetter</a><small> helps Citibikers find optimal biking directions.</small>
+        </h4>
+      </div>
+      <div id="collapseOne" class="panel-collapse collapse">
+        <div class="panel-body">
+          <p>A service for finding directions between the closest Citibike stations to your origin and destination.</p>
+          <img src="./images/citibike.png" class="screenshot">
+        </div>
       </div>
     </div>
 
-    <h2 class='portfolio'>Portfolio</h2>
+    <div class="panel panel-default">
+      <div class="panel-heading" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
+        <h4 class="panel-title">
+          <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
+            Watch Atlas
+          </a>
+        </h4>
+      </div>
+      <div id="collapseTwo" class="panel-collapse collapse">
+        <div class="panel-body">
+          <img src='./images/watchatlas.png' class='screenshot'>
+          <img src="./images/morocco.png" alt="" class="screenshot">
+        </div>
+      </div>
+    </div>
+    <div class="panel panel-default">
+      <div class="panel-heading" data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
+        <h4 class="panel-title">
+          <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
+            Collapsible Group Item #3
+          </a>
+        </h4>
+      </div>
+      <div id="collapseThree" class="panel-collapse collapse">
+        <div class="panel-body">
+          Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, 
+        </div>
+      </div>
+    </div>
 
-    <h4><a href='http://citibike-better.herokuapp.com' target='blank'>CitibikeBetter</a> <small>helps Citibikers find optimal biking directions.</small></h4>
-    <h4><a href='http://watch-atlas.herokuapp.com' target='blank'>Watch Atlas</a> <small>is a D3 visualization of global Youtube trends.</small></h4>
-    <h4><a href='http://mapshare.herokuapp.com' target='blank'>Mapshare</a> <small>allows users to design, store, and share custom maps.</small>
-    <h4><a href='http://samnebel.com' target='blank'>Math Tutoring</a> <small> Sam&rsquo;s personal tutoring site with testimonials</small></h4>
-    <h4><a href='http://github.com/snebel/project_euler' target='blank'>Project Euler</a> <small> Sam is in the top <a href='http://projecteuler.net/problems_analysis' target='blank'>5%</a> of all Project Euler solvers</small></h4>
+    <div class="panel panel-default">
+      <div class="panel-heading" data-toggle="collapse" data-parent="#accordion" href="#collapseFour">
+        <h4 class="panel-title">
+          <a data-toggle="collapse" data-parent="#accordion" href="#collapseFour">
+            Collapsible Group Item #4
+          </a>
+        </h4>
+      </div>
+      <div id="collapseFour" class="panel-collapse collapse">
+        <div class="panel-body">
+          Anim pariatur cliche reprehenderit, enim eiusmod high life 
+        </div>
+      </div>
+    </div>
+
+    <div class="panel panel-default">
+      <div class="panel-heading" data-toggle="collapse" data-parent="#accordion" href="#collapseFive">
+        <h4 class="panel-title">
+          <a data-toggle="collapse" data-parent="#accordion" href="#collapseFive">
+            Project Euler <small> Sam is in the top <a href='http://projecteuler.net/problems_analysis' target='blank'>5%</a> of all Project Euler solvers</small>
+          </a>
+        </h4>
+      </div>
+      <div id="collapseFive" class="panel-collapse collapse">
+        <div class="panel-body">
+          Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, 
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  </div>
+    <a href='http://github.com/snebel' target='blank'><i class="fa fa-2x fa-github"></i></a>
     <!-- <h4><a href='http://github.com/snebel' target='blank'>Github</a> <small>- projects in Ruby, Java, Javascript, and Standard ML</small></h4> -->
 
     <!-- <a href='http://github.com/snebel' target='blank'><i class="fa fa-2x fa-list-alt"></i></a> -->
-    
-    <a href='http://github.com/snebel' target='blank'><i class="fa fa-2x fa-github"></i></a>
 
-    <!-- <a href='http://github.com/snebel' target='blank'><i class="fa fa-2x fa-linkedin-square"></i></a> -->
-  </div>
+    <!-- <a href='http://github.com/snebel' target='blank'><i class="fa f a-2x fa-linkedin-square"></i></a> -->
+
+</div>
 </body>
 </html>

@@ -4764,7 +4764,7 @@ a.list-group-item-danger.active:focus {
 }
 .panel-heading {
   padding: 10px 15px;
-  border-bottom: 1px solid transparent;
+  /*border-bottom: 1px solid transparent;*/
   border-top-right-radius: 3px;
   border-top-left-radius: 3px;
 }
@@ -4940,7 +4940,7 @@ a.list-group-item-danger.active:focus {
   border-bottom: 0;
 }
 .panel-group .panel-heading + .panel-collapse .panel-body {
-  border-top: 1px solid #dddddd;
+  /*border-top: 1px solid #dddddd;*/
 }
 .panel-group .panel-footer {
   border-top: 0;
@@ -4954,24 +4954,24 @@ a.list-group-item-danger.active:focus {
 .panel-default > .panel-heading {
   color: #333333;
   background-color: #fcfcfc;
-  border-color: #dddddd;
+  /*border-color: #dddddd;*/
 }
 .panel-default > .panel-heading + .panel-collapse .panel-body {
-  border-top-color: #dddddd;
+  /*border-top-color: #dddddd;*/
 }
 .panel-default > .panel-footer + .panel-collapse .panel-body {
-  border-bottom-color: #dddddd;
+  /*border-bottom-color: #dddddd;*/
 }
 .panel-primary {
-  border-color: #d9230f;
+  /*border-color: #d9230f;*/
 }
 .panel-primary > .panel-heading {
   color: #ffffff;
   background-color: #d9230f;
-  border-color: #d9230f;
+  /*border-color: #d9230f;*/
 }
 .panel-primary > .panel-heading + .panel-collapse .panel-body {
-  border-top-color: #d9230f;
+  /*border-top-color: #d9230f;*/
 }
 .panel-primary > .panel-footer + .panel-collapse .panel-body {
   border-bottom-color: #d9230f;
@@ -4982,7 +4982,7 @@ a.list-group-item-danger.active:focus {
 .panel-success > .panel-heading {
   color: #ffffff;
   background-color: #469408;
-  border-color: #469408;
+  /*border-color: #469408;*/
 }
 .panel-success > .panel-heading + .panel-collapse .panel-body {
   border-top-color: #469408;
