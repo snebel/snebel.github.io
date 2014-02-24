@@ -12,7 +12,6 @@ body {
   height: 175px;
   margin-bottom: 15px;
   margin-top: -5px;
-  /*float: left;*/
 }
 
 .screenshot {
@@ -26,7 +25,7 @@ h1 {
 
 h2 {
   margin-top: -15px;
-  margin-bottom: 20px;
+  margin-bottom: 0px;
 }
 
 h2 small{
@@ -41,6 +40,10 @@ h2 small{
 
 .panel .panel-heading:hover {
   background-color: #f3f3f3;
+}
+
+.panel-body {
+  border: 0;
 }
 
 .panel-default {
@@ -89,7 +92,7 @@ li {
 }
 
 i {
-  margin-top: 15px;
+  margin-top: 5px;
   margin-right: 15px;
 
 }
