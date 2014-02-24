@@ -39,6 +39,14 @@ h2 small{
   border-top-color: #f3f3f3;
 }
 
+.panel {
+  box-shadow: 0 0px 0px rgba(0, 0, 0, 0.05);
+}
+
+.panel-group .panel + .panel {
+  margin-top: 0px;
+}
+
 .panel .panel-heading:hover {
   background-color: #f3f3f3;
   cursor: pointer;
@@ -84,6 +92,7 @@ a:focus {
 
 .portfolio {
   margin-top: 10px;
+  margin-bottom: 5px;
 }
 .info {
   margin-left: 0px;

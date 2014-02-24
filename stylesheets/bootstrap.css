@@ -4934,7 +4934,7 @@ a.list-group-item-danger.active:focus {
   overflow: hidden;
 }
 .panel-group .panel + .panel {
-  margin-top: 5px;
+  margin-top: 0px;
 }
 .panel-group .panel-heading {
   border-bottom: 0;
