@@ -15,8 +15,9 @@ body {
 }
 
 .screenshot {
-  width: 85%;
+  width: 100%;
   margin-bottom: 20px;
+
 }
 
 h1 {
@@ -40,6 +41,7 @@ h2 small{
 
 .panel .panel-heading:hover {
   background-color: #f3f3f3;
+  cursor: pointer;
 }
 
 .panel-body {
@@ -99,11 +101,11 @@ i {
 
 
 .bounceInRight {
-  -webkit-animation-delay: 0s;
+  -webkit-animation-delay: 0.5s;
 }
 
 .bounceInLeft {
-  -webkit-animation-delay: 0s;
+  -webkit-animation-delay: 0.5s;
 }
 
 
